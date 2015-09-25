@@ -22,6 +22,8 @@
 #import "EOCDataModel.h"
 #import "EOC_3_API_Person+Work.h"
 #import "EOCClass.h"
+#import "EOCDatabaseManager.h"
+
 @interface ViewController ()
 
 @end
@@ -34,8 +36,8 @@
     
     [self createView];
     
-    [self testapi];
-    //[self testCategory];
+    //[self testapi];
+    [self test28];
 }
 
 - (void)createView {
@@ -123,6 +125,17 @@
 
 - (void)testCategory {
     [[EOC_3_API_Person new] performDaysWork];
+}
+
+- (void)test28 {
+    EOCDatabaseManager *manager=[EOCDatabaseManager sharedInstance];
+    id <EOCDatabaseConnectionDelegate> mysqlConnnection=[manager connectionWithIdentifier:@"mysql"];
+    [mysqlConnnection connect];
+    [mysqlConnnection disconnect];
+    
+    id <EOCDatabaseConnectionDelegate> oracleConnection=[manager connectionWithIdentifier:@"oracle"];
+    [oracleConnection isConnected];
+    NSLog(@"result:%@",[oracleConnection performQuery:@"zheng"]);
 }
 
 - (void)didReceiveMemoryWarning {

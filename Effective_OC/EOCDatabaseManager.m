@@ -7,7 +7,8 @@
 //
 
 #import "EOCDatabaseManager.h"
-#import "EOCDatabaseConnection.h"
+#import "EOCMySqlDatabaseConnection.h"
+#import "EOCOracleDatabaseConnection.h"
 
 @implementation EOCDatabaseManager
 
@@ -21,8 +22,12 @@
 }
 
 - (id <EOCDatabaseConnectionDelegate>)connectionWithIdentifier:(NSString *)identifier {
-    id connection=nil;
-    
+    id <EOCDatabaseConnectionDelegate> connection=nil;
+    if ([identifier isEqualToString:@"mysql"]) {
+        connection=[[EOCMySqlDatabaseConnection new] getMySqlDatabaseConnection];
+    } else if ([identifier isEqualToString:@"oracle"]) {
+        connection=[[EOCOracleDatabaseConnection new] getOracleDatabaseConnection];
+    }
     return connection;
 }
 

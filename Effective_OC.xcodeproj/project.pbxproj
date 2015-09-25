@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74FCD1011BB5266100615073 /* ThirdMySQLConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1001BB5266100615073 /* ThirdMySQLConnector.m */; settings = {ASSET_TAGS = (); }; };
+		74FCD1041BB528BD00615073 /* EOCMySqlDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1031BB528BD00615073 /* EOCMySqlDatabaseConnection.m */; settings = {ASSET_TAGS = (); }; };
+		74FCD1071BB5315400615073 /* ThirdOracleConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1061BB5315400615073 /* ThirdOracleConnector.m */; settings = {ASSET_TAGS = (); }; };
+		74FCD10A1BB532DB00615073 /* EOCOracleDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1091BB532DB00615073 /* EOCOracleDatabaseConnection.m */; settings = {ASSET_TAGS = (); }; };
 		D95D32921B9EDEA400F9CC67 /* EOCExchangeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D32911B9EDEA400F9CC67 /* EOCExchangeImplementation.m */; };
 		D95D32951B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D32941B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m */; };
 		D974415A1B9EB6E100E2C005 /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D97441591B9EB6E100E2C005 /* EOCAutoDictionary.m */; };
@@ -41,9 +45,6 @@
 		D9B9DB9F1BB3C97C00FCD053 /* EOCClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DB9E1BB3C97C00FCD053 /* EOCClass.mm */; settings = {ASSET_TAGS = (); }; };
 		D9B9DBA21BB3C9A800FCD053 /* SomeCppClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBA01BB3C9A800FCD053 /* SomeCppClass.cpp */; settings = {ASSET_TAGS = (); }; };
 		D9B9DBA91BB3EE0300FCD053 /* EOCDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */; settings = {ASSET_TAGS = (); }; };
-		D9B9DBAC1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBAB1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m */; settings = {ASSET_TAGS = (); }; };
-		D9B9DBAF1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBAE1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m */; settings = {ASSET_TAGS = (); }; };
-		D9B9DBB21BB3F46900FCD053 /* EOCDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBB11BB3F46900FCD053 /* EOCDatabaseConnection.m */; settings = {ASSET_TAGS = (); }; };
 		D9E11F031BB14D2600D9FBC9 /* EOCErrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74FCD0FF1BB5266100615073 /* ThirdMySQLConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdMySQLConnector.h; sourceTree = "<group>"; };
+		74FCD1001BB5266100615073 /* ThirdMySQLConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdMySQLConnector.m; sourceTree = "<group>"; };
+		74FCD1021BB528BD00615073 /* EOCMySqlDatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCMySqlDatabaseConnection.h; sourceTree = "<group>"; };
+		74FCD1031BB528BD00615073 /* EOCMySqlDatabaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCMySqlDatabaseConnection.m; sourceTree = "<group>"; };
+		74FCD1051BB5315400615073 /* ThirdOracleConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdOracleConnector.h; sourceTree = "<group>"; };
+		74FCD1061BB5315400615073 /* ThirdOracleConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdOracleConnector.m; sourceTree = "<group>"; };
+		74FCD1081BB532DB00615073 /* EOCOracleDatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCOracleDatabaseConnection.h; sourceTree = "<group>"; };
+		74FCD1091BB532DB00615073 /* EOCOracleDatabaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCOracleDatabaseConnection.m; sourceTree = "<group>"; };
 		D95D32901B9EDEA400F9CC67 /* EOCExchangeImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCExchangeImplementation.h; sourceTree = "<group>"; };
 		D95D32911B9EDEA400F9CC67 /* EOCExchangeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCExchangeImplementation.m; sourceTree = "<group>"; };
 		D95D32931B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMyAdditions.h"; sourceTree = "<group>"; };
@@ -126,12 +135,6 @@
 		D9B9DBA61BB3EC1E00FCD053 /* EOCDatabaseConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseConnectionDelegate.h; sourceTree = "<group>"; };
 		D9B9DBA71BB3EE0300FCD053 /* EOCDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseManager.h; sourceTree = "<group>"; };
 		D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseManager.m; sourceTree = "<group>"; };
-		D9B9DBAA1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseConnectionA.h; sourceTree = "<group>"; };
-		D9B9DBAB1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseConnectionA.m; sourceTree = "<group>"; };
-		D9B9DBAD1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseConnectionB.h; sourceTree = "<group>"; };
-		D9B9DBAE1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseConnectionB.m; sourceTree = "<group>"; };
-		D9B9DBB01BB3F46900FCD053 /* EOCDatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseConnection.h; sourceTree = "<group>"; };
-		D9B9DBB11BB3F46900FCD053 /* EOCDatabaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseConnection.m; sourceTree = "<group>"; };
 		D9E11F011BB14D2600D9FBC9 /* EOCErrorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCErrorTest.h; sourceTree = "<group>"; };
 		D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCErrorTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +157,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74FCD10B1BB5359600615073 /* ThirdLibraryDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				74FCD0FF1BB5266100615073 /* ThirdMySQLConnector.h */,
+				74FCD1001BB5266100615073 /* ThirdMySQLConnector.m */,
+				74FCD1051BB5315400615073 /* ThirdOracleConnector.h */,
+				74FCD1061BB5315400615073 /* ThirdOracleConnector.m */,
+			);
+			name = ThirdLibraryDatabase;
+			sourceTree = "<group>";
+		};
 		D974BD111BAC0A2300F4F020 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +188,7 @@
 		D99AD62B1BB24EF000A066AD /* protocol&category */ = {
 			isa = PBXGroup;
 			children = (
+				74FCD10B1BB5359600615073 /* ThirdLibraryDatabase */,
 				D99AD62C1BB24F1400A066AD /* EOCNetworkFetcher.h */,
 				D99AD62D1BB24F1400A066AD /* EOCNetworkFetcher.m */,
 				D99AD62F1BB27A3000A066AD /* EOCDataModel.h */,
@@ -193,12 +208,10 @@
 				D9B9DBA71BB3EE0300FCD053 /* EOCDatabaseManager.h */,
 				D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */,
 				D9B9DBA61BB3EC1E00FCD053 /* EOCDatabaseConnectionDelegate.h */,
-				D9B9DBB01BB3F46900FCD053 /* EOCDatabaseConnection.h */,
-				D9B9DBB11BB3F46900FCD053 /* EOCDatabaseConnection.m */,
-				D9B9DBAA1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.h */,
-				D9B9DBAB1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m */,
-				D9B9DBAD1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.h */,
-				D9B9DBAE1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m */,
+				74FCD1021BB528BD00615073 /* EOCMySqlDatabaseConnection.h */,
+				74FCD1031BB528BD00615073 /* EOCMySqlDatabaseConnection.m */,
+				74FCD1081BB532DB00615073 /* EOCOracleDatabaseConnection.h */,
+				74FCD1091BB532DB00615073 /* EOCOracleDatabaseConnection.m */,
 			);
 			name = "protocol&category";
 			sourceTree = "<group>";
@@ -408,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9B9DBAF1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m in Sources */,
 				D9A6BF451B9D85E200DB086C /* ViewController.m in Sources */,
 				D9A6BF421B9D85E200DB086C /* AppDelegate.m in Sources */,
 				D9A6BF731B9D86CA00DB086C /* Effective_OC_01.m in Sources */,
@@ -425,17 +437,19 @@
 				D9A6BF761B9D86CA00DB086C /* EOCEmployeeDesigner.m in Sources */,
 				D9E11F031BB14D2600D9FBC9 /* EOCErrorTest.m in Sources */,
 				D9B9DB9F1BB3C97C00FCD053 /* EOCClass.mm in Sources */,
-				D9B9DBAC1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m in Sources */,
+				74FCD1041BB528BD00615073 /* EOCMySqlDatabaseConnection.m in Sources */,
 				D974BD1A1BAC0A3C00F4F020 /* EOC_3_API_Person.m in Sources */,
 				D9B9DB931BB3931A00FCD053 /* NSString+EOC_HTTP.m in Sources */,
 				D9A6BF3F1B9D85E200DB086C /* main.m in Sources */,
 				D974BD1C1BAC0A3C00F4F020 /* EOCRectangle.m in Sources */,
-				D9B9DBB21BB3F46900FCD053 /* EOCDatabaseConnection.m in Sources */,
 				D974415A1B9EB6E100E2C005 /* EOCAutoDictionary.m in Sources */,
 				D9B9DBA91BB3EE0300FCD053 /* EOCDatabaseManager.m in Sources */,
+				74FCD1011BB5266100615073 /* ThirdMySQLConnector.m in Sources */,
 				D99AD6371BB2AF4E00A066AD /* EOC_3_API_Person+Work.m in Sources */,
 				D9A6BF771B9D86CA00DB086C /* EOCEmployeeDeveloper.m in Sources */,
 				D99AD62E1BB24F1400A066AD /* EOCNetworkFetcher.m in Sources */,
+				74FCD10A1BB532DB00615073 /* EOCOracleDatabaseConnection.m in Sources */,
+				74FCD1071BB5315400615073 /* ThirdOracleConnector.m in Sources */,
 				D95D32951B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m in Sources */,
 				D9A6BF781B9D86CA00DB086C /* EOCEmployeeFinance.m in Sources */,
 				D9A6BF741B9D86CA00DB086C /* EOCBrain.m in Sources */,
