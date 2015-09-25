@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95D32921B9EDEA400F9CC67 /* EOCExchangeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D32911B9EDEA400F9CC67 /* EOCExchangeImplementation.m */; };
+		D95D32951B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D32941B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m */; };
+		D974415A1B9EB6E100E2C005 /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D97441591B9EB6E100E2C005 /* EOCAutoDictionary.m */; };
+		D974415D1B9EBC1100E2C005 /* Effective_OC_runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = D974415C1B9EBC1100E2C005 /* Effective_OC_runtime.m */; };
+		D974BD1A1BAC0A3C00F4F020 /* EOC_3_API_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D974BD131BAC0A3C00F4F020 /* EOC_3_API_Person.m */; };
+		D974BD1B1BAC0A3C00F4F020 /* EOCPointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = D974BD151BAC0A3C00F4F020 /* EOCPointOfInterest.m */; };
+		D974BD1C1BAC0A3C00F4F020 /* EOCRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D974BD171BAC0A3C00F4F020 /* EOCRectangle.m */; };
+		D974BD1D1BAC0A3C00F4F020 /* EOCSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = D974BD191BAC0A3C00F4F020 /* EOCSquare.m */; };
+		D99AD62E1BB24F1400A066AD /* EOCNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD62D1BB24F1400A066AD /* EOCNetworkFetcher.m */; settings = {ASSET_TAGS = (); }; };
+		D99AD6311BB27A3000A066AD /* EOCDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6301BB27A3000A066AD /* EOCDataModel.m */; settings = {ASSET_TAGS = (); }; };
+		D99AD6341BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6331BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m */; settings = {ASSET_TAGS = (); }; };
+		D99AD6371BB2AF4E00A066AD /* EOC_3_API_Person+Work.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6361BB2AF4E00A066AD /* EOC_3_API_Person+Work.m */; settings = {ASSET_TAGS = (); }; };
+		D99AD63A1BB2AF6000A066AD /* EOC_3_API_Person+Play.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6391BB2AF6000A066AD /* EOC_3_API_Person+Play.m */; settings = {ASSET_TAGS = (); }; };
 		D9A6BF3F1B9D85E200DB086C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF3E1B9D85E200DB086C /* main.m */; };
 		D9A6BF421B9D85E200DB086C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF411B9D85E200DB086C /* AppDelegate.m */; };
 		D9A6BF451B9D85E200DB086C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF441B9D85E200DB086C /* ViewController.m */; };
@@ -14,6 +27,24 @@
 		D9A6BF4A1B9D85E200DB086C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A6BF491B9D85E200DB086C /* Images.xcassets */; };
 		D9A6BF4D1B9D85E200DB086C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A6BF4B1B9D85E200DB086C /* LaunchScreen.xib */; };
 		D9A6BF591B9D85E200DB086C /* Effective_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF581B9D85E200DB086C /* Effective_OCTests.m */; };
+		D9A6BF731B9D86CA00DB086C /* Effective_OC_01.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF641B9D86CA00DB086C /* Effective_OC_01.m */; };
+		D9A6BF741B9D86CA00DB086C /* EOCBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF661B9D86CA00DB086C /* EOCBrain.m */; };
+		D9A6BF751B9D86CA00DB086C /* EOCEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF681B9D86CA00DB086C /* EOCEmployee.m */; };
+		D9A6BF761B9D86CA00DB086C /* EOCEmployeeDesigner.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF6A1B9D86CA00DB086C /* EOCEmployeeDesigner.m */; };
+		D9A6BF771B9D86CA00DB086C /* EOCEmployeeDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF6C1B9D86CA00DB086C /* EOCEmployeeDeveloper.m */; };
+		D9A6BF781B9D86CA00DB086C /* EOCEmployeeFinance.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF6E1B9D86CA00DB086C /* EOCEmployeeFinance.m */; };
+		D9A6BF791B9D86CA00DB086C /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF701B9D86CA00DB086C /* EOCPerson.m */; };
+		D9A6BF7A1B9D86CA00DB086C /* EOCSmithPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF721B9D86CA00DB086C /* EOCSmithPerson.m */; };
+		D9A891C11BA6BF800063C9A7 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A891C01BA6BF800063C9A7 /* NSObject+Swizzle.m */; };
+		D9A891C41BA6C6390063C9A7 /* NSString+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A891C31BA6C6390063C9A7 /* NSString+Swizzle.m */; };
+		D9B9DB931BB3931A00FCD053 /* NSString+EOC_HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DB921BB3931A00FCD053 /* NSString+EOC_HTTP.m */; settings = {ASSET_TAGS = (); }; };
+		D9B9DB9F1BB3C97C00FCD053 /* EOCClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DB9E1BB3C97C00FCD053 /* EOCClass.mm */; settings = {ASSET_TAGS = (); }; };
+		D9B9DBA21BB3C9A800FCD053 /* SomeCppClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBA01BB3C9A800FCD053 /* SomeCppClass.cpp */; settings = {ASSET_TAGS = (); }; };
+		D9B9DBA91BB3EE0300FCD053 /* EOCDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */; settings = {ASSET_TAGS = (); }; };
+		D9B9DBAC1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBAB1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m */; settings = {ASSET_TAGS = (); }; };
+		D9B9DBAF1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBAE1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m */; settings = {ASSET_TAGS = (); }; };
+		D9B9DBB21BB3F46900FCD053 /* EOCDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBB11BB3F46900FCD053 /* EOCDatabaseConnection.m */; settings = {ASSET_TAGS = (); }; };
+		D9E11F031BB14D2600D9FBC9 /* EOCErrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +58,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D95D32901B9EDEA400F9CC67 /* EOCExchangeImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCExchangeImplementation.h; sourceTree = "<group>"; };
+		D95D32911B9EDEA400F9CC67 /* EOCExchangeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCExchangeImplementation.m; sourceTree = "<group>"; };
+		D95D32931B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMyAdditions.h"; sourceTree = "<group>"; };
+		D95D32941B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCMyAdditions.m"; sourceTree = "<group>"; };
+		D97441581B9EB6E100E2C005 /* EOCAutoDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
+		D97441591B9EB6E100E2C005 /* EOCAutoDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
+		D974415B1B9EBC1100E2C005 /* Effective_OC_runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Effective_OC_runtime.h; sourceTree = "<group>"; };
+		D974415C1B9EBC1100E2C005 /* Effective_OC_runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Effective_OC_runtime.m; sourceTree = "<group>"; };
+		D974BD121BAC0A3C00F4F020 /* EOC_3_API_Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOC_3_API_Person.h; sourceTree = "<group>"; };
+		D974BD131BAC0A3C00F4F020 /* EOC_3_API_Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOC_3_API_Person.m; sourceTree = "<group>"; };
+		D974BD141BAC0A3C00F4F020 /* EOCPointOfInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPointOfInterest.h; sourceTree = "<group>"; };
+		D974BD151BAC0A3C00F4F020 /* EOCPointOfInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCPointOfInterest.m; sourceTree = "<group>"; };
+		D974BD161BAC0A3C00F4F020 /* EOCRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCRectangle.h; sourceTree = "<group>"; };
+		D974BD171BAC0A3C00F4F020 /* EOCRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCRectangle.m; sourceTree = "<group>"; };
+		D974BD181BAC0A3C00F4F020 /* EOCSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCSquare.h; sourceTree = "<group>"; };
+		D974BD191BAC0A3C00F4F020 /* EOCSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCSquare.m; sourceTree = "<group>"; };
+		D99AD62C1BB24F1400A066AD /* EOCNetworkFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCNetworkFetcher.h; sourceTree = "<group>"; };
+		D99AD62D1BB24F1400A066AD /* EOCNetworkFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCNetworkFetcher.m; sourceTree = "<group>"; };
+		D99AD62F1BB27A3000A066AD /* EOCDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDataModel.h; sourceTree = "<group>"; };
+		D99AD6301BB27A3000A066AD /* EOCDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDataModel.m; sourceTree = "<group>"; };
+		D99AD6321BB2AF4200A066AD /* EOC_3_API_Person+Friendship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EOC_3_API_Person+Friendship.h"; sourceTree = "<group>"; };
+		D99AD6331BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EOC_3_API_Person+Friendship.m"; sourceTree = "<group>"; };
+		D99AD6351BB2AF4E00A066AD /* EOC_3_API_Person+Work.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EOC_3_API_Person+Work.h"; sourceTree = "<group>"; };
+		D99AD6361BB2AF4E00A066AD /* EOC_3_API_Person+Work.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EOC_3_API_Person+Work.m"; sourceTree = "<group>"; };
+		D99AD6381BB2AF6000A066AD /* EOC_3_API_Person+Play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EOC_3_API_Person+Play.h"; sourceTree = "<group>"; };
+		D99AD6391BB2AF6000A066AD /* EOC_3_API_Person+Play.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EOC_3_API_Person+Play.m"; sourceTree = "<group>"; };
 		D9A6BF391B9D85E200DB086C /* Effective_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Effective_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A6BF3D1B9D85E200DB086C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9A6BF3E1B9D85E200DB086C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +97,43 @@
 		D9A6BF521B9D85E200DB086C /* Effective_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Effective_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A6BF571B9D85E200DB086C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9A6BF581B9D85E200DB086C /* Effective_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Effective_OCTests.m; sourceTree = "<group>"; };
+		D9A6BF631B9D86CA00DB086C /* Effective_OC_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Effective_OC_01.h; sourceTree = "<group>"; };
+		D9A6BF641B9D86CA00DB086C /* Effective_OC_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Effective_OC_01.m; sourceTree = "<group>"; };
+		D9A6BF651B9D86CA00DB086C /* EOCBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCBrain.h; sourceTree = "<group>"; };
+		D9A6BF661B9D86CA00DB086C /* EOCBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCBrain.m; sourceTree = "<group>"; };
+		D9A6BF671B9D86CA00DB086C /* EOCEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployee.h; sourceTree = "<group>"; };
+		D9A6BF681B9D86CA00DB086C /* EOCEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployee.m; sourceTree = "<group>"; };
+		D9A6BF691B9D86CA00DB086C /* EOCEmployeeDesigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployeeDesigner.h; sourceTree = "<group>"; };
+		D9A6BF6A1B9D86CA00DB086C /* EOCEmployeeDesigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployeeDesigner.m; sourceTree = "<group>"; };
+		D9A6BF6B1B9D86CA00DB086C /* EOCEmployeeDeveloper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployeeDeveloper.h; sourceTree = "<group>"; };
+		D9A6BF6C1B9D86CA00DB086C /* EOCEmployeeDeveloper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployeeDeveloper.m; sourceTree = "<group>"; };
+		D9A6BF6D1B9D86CA00DB086C /* EOCEmployeeFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployeeFinance.h; sourceTree = "<group>"; };
+		D9A6BF6E1B9D86CA00DB086C /* EOCEmployeeFinance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployeeFinance.m; sourceTree = "<group>"; };
+		D9A6BF6F1B9D86CA00DB086C /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
+		D9A6BF701B9D86CA00DB086C /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
+		D9A6BF711B9D86CA00DB086C /* EOCSmithPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCSmithPerson.h; sourceTree = "<group>"; };
+		D9A6BF721B9D86CA00DB086C /* EOCSmithPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCSmithPerson.m; sourceTree = "<group>"; };
+		D9A891BF1BA6BF800063C9A7 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		D9A891C01BA6BF800063C9A7 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		D9A891C21BA6C6390063C9A7 /* NSString+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Swizzle.h"; sourceTree = "<group>"; };
+		D9A891C31BA6C6390063C9A7 /* NSString+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Swizzle.m"; sourceTree = "<group>"; };
+		D9B9DB911BB3931A00FCD053 /* NSString+EOC_HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EOC_HTTP.h"; sourceTree = "<group>"; };
+		D9B9DB921BB3931A00FCD053 /* NSString+EOC_HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOC_HTTP.m"; sourceTree = "<group>"; };
+		D9B9DB9D1BB3C97C00FCD053 /* EOCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCClass.h; sourceTree = "<group>"; };
+		D9B9DB9E1BB3C97C00FCD053 /* EOCClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EOCClass.mm; sourceTree = "<group>"; };
+		D9B9DBA01BB3C9A800FCD053 /* SomeCppClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SomeCppClass.cpp; sourceTree = "<group>"; };
+		D9B9DBA11BB3C9A800FCD053 /* SomeCppClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SomeCppClass.hpp; sourceTree = "<group>"; };
+		D9B9DBA61BB3EC1E00FCD053 /* EOCDatabaseConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseConnectionDelegate.h; sourceTree = "<group>"; };
+		D9B9DBA71BB3EE0300FCD053 /* EOCDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseManager.h; sourceTree = "<group>"; };
+		D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseManager.m; sourceTree = "<group>"; };
+		D9B9DBAA1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseConnectionA.h; sourceTree = "<group>"; };
+		D9B9DBAB1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseConnectionA.m; sourceTree = "<group>"; };
+		D9B9DBAD1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseConnectionB.h; sourceTree = "<group>"; };
+		D9B9DBAE1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseConnectionB.m; sourceTree = "<group>"; };
+		D9B9DBB01BB3F46900FCD053 /* EOCDatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDatabaseConnection.h; sourceTree = "<group>"; };
+		D9B9DBB11BB3F46900FCD053 /* EOCDatabaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseConnection.m; sourceTree = "<group>"; };
+		D9E11F011BB14D2600D9FBC9 /* EOCErrorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCErrorTest.h; sourceTree = "<group>"; };
+		D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCErrorTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +154,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D974BD111BAC0A2300F4F020 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D974BD121BAC0A3C00F4F020 /* EOC_3_API_Person.h */,
+				D974BD131BAC0A3C00F4F020 /* EOC_3_API_Person.m */,
+				D974BD141BAC0A3C00F4F020 /* EOCPointOfInterest.h */,
+				D974BD151BAC0A3C00F4F020 /* EOCPointOfInterest.m */,
+				D974BD161BAC0A3C00F4F020 /* EOCRectangle.h */,
+				D974BD171BAC0A3C00F4F020 /* EOCRectangle.m */,
+				D974BD181BAC0A3C00F4F020 /* EOCSquare.h */,
+				D974BD191BAC0A3C00F4F020 /* EOCSquare.m */,
+				D9E11F011BB14D2600D9FBC9 /* EOCErrorTest.h */,
+				D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D99AD62B1BB24EF000A066AD /* protocol&category */ = {
+			isa = PBXGroup;
+			children = (
+				D99AD62C1BB24F1400A066AD /* EOCNetworkFetcher.h */,
+				D99AD62D1BB24F1400A066AD /* EOCNetworkFetcher.m */,
+				D99AD62F1BB27A3000A066AD /* EOCDataModel.h */,
+				D99AD6301BB27A3000A066AD /* EOCDataModel.m */,
+				D99AD6321BB2AF4200A066AD /* EOC_3_API_Person+Friendship.h */,
+				D99AD6331BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m */,
+				D99AD6351BB2AF4E00A066AD /* EOC_3_API_Person+Work.h */,
+				D99AD6361BB2AF4E00A066AD /* EOC_3_API_Person+Work.m */,
+				D99AD6381BB2AF6000A066AD /* EOC_3_API_Person+Play.h */,
+				D99AD6391BB2AF6000A066AD /* EOC_3_API_Person+Play.m */,
+				D9B9DB911BB3931A00FCD053 /* NSString+EOC_HTTP.h */,
+				D9B9DB921BB3931A00FCD053 /* NSString+EOC_HTTP.m */,
+				D9B9DB9D1BB3C97C00FCD053 /* EOCClass.h */,
+				D9B9DB9E1BB3C97C00FCD053 /* EOCClass.mm */,
+				D9B9DBA01BB3C9A800FCD053 /* SomeCppClass.cpp */,
+				D9B9DBA11BB3C9A800FCD053 /* SomeCppClass.hpp */,
+				D9B9DBA71BB3EE0300FCD053 /* EOCDatabaseManager.h */,
+				D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */,
+				D9B9DBA61BB3EC1E00FCD053 /* EOCDatabaseConnectionDelegate.h */,
+				D9B9DBB01BB3F46900FCD053 /* EOCDatabaseConnection.h */,
+				D9B9DBB11BB3F46900FCD053 /* EOCDatabaseConnection.m */,
+				D9B9DBAA1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.h */,
+				D9B9DBAB1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m */,
+				D9B9DBAD1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.h */,
+				D9B9DBAE1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m */,
+			);
+			name = "protocol&category";
+			sourceTree = "<group>";
+		};
 		D9A6BF301B9D85E200DB086C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +228,7 @@
 				D9A6BF411B9D85E200DB086C /* AppDelegate.m */,
 				D9A6BF431B9D85E200DB086C /* ViewController.h */,
 				D9A6BF441B9D85E200DB086C /* ViewController.m */,
+				D9A6BF621B9D86BD00DB086C /* test */,
 				D9A6BF461B9D85E200DB086C /* Main.storyboard */,
 				D9A6BF491B9D85E200DB086C /* Images.xcassets */,
 				D9A6BF4B1B9D85E200DB086C /* LaunchScreen.xib */,
@@ -117,6 +261,51 @@
 				D9A6BF571B9D85E200DB086C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9A6BF621B9D86BD00DB086C /* test */ = {
+			isa = PBXGroup;
+			children = (
+				D99AD62B1BB24EF000A066AD /* protocol&category */,
+				D974BD111BAC0A2300F4F020 /* API */,
+				D9A891BE1BA6BCA70063C9A7 /* runtime */,
+				D9A6BF631B9D86CA00DB086C /* Effective_OC_01.h */,
+				D9A6BF641B9D86CA00DB086C /* Effective_OC_01.m */,
+				D974415B1B9EBC1100E2C005 /* Effective_OC_runtime.h */,
+				D974415C1B9EBC1100E2C005 /* Effective_OC_runtime.m */,
+				D9A6BF651B9D86CA00DB086C /* EOCBrain.h */,
+				D9A6BF661B9D86CA00DB086C /* EOCBrain.m */,
+				D9A6BF671B9D86CA00DB086C /* EOCEmployee.h */,
+				D9A6BF681B9D86CA00DB086C /* EOCEmployee.m */,
+				D9A6BF691B9D86CA00DB086C /* EOCEmployeeDesigner.h */,
+				D9A6BF6A1B9D86CA00DB086C /* EOCEmployeeDesigner.m */,
+				D9A6BF6B1B9D86CA00DB086C /* EOCEmployeeDeveloper.h */,
+				D9A6BF6C1B9D86CA00DB086C /* EOCEmployeeDeveloper.m */,
+				D9A6BF6D1B9D86CA00DB086C /* EOCEmployeeFinance.h */,
+				D9A6BF6E1B9D86CA00DB086C /* EOCEmployeeFinance.m */,
+				D9A6BF6F1B9D86CA00DB086C /* EOCPerson.h */,
+				D9A6BF701B9D86CA00DB086C /* EOCPerson.m */,
+				D9A6BF711B9D86CA00DB086C /* EOCSmithPerson.h */,
+				D9A6BF721B9D86CA00DB086C /* EOCSmithPerson.m */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		D9A891BE1BA6BCA70063C9A7 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				D97441581B9EB6E100E2C005 /* EOCAutoDictionary.h */,
+				D97441591B9EB6E100E2C005 /* EOCAutoDictionary.m */,
+				D95D32901B9EDEA400F9CC67 /* EOCExchangeImplementation.h */,
+				D95D32911B9EDEA400F9CC67 /* EOCExchangeImplementation.m */,
+				D95D32931B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.h */,
+				D95D32941B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m */,
+				D9A891BF1BA6BF800063C9A7 /* NSObject+Swizzle.h */,
+				D9A891C01BA6BF800063C9A7 /* NSObject+Swizzle.m */,
+				D9A891C21BA6C6390063C9A7 /* NSString+Swizzle.h */,
+				D9A891C31BA6C6390063C9A7 /* NSString+Swizzle.m */,
+			);
+			name = runtime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +352,7 @@
 		D9A6BF311B9D85E200DB086C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = fanxingzheng;
 				TargetAttributes = {
 					D9A6BF381B9D85E200DB086C = {
@@ -219,9 +408,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B9DBAF1BB3EE6B00FCD053 /* EOCDatabaseConnectionB.m in Sources */,
 				D9A6BF451B9D85E200DB086C /* ViewController.m in Sources */,
 				D9A6BF421B9D85E200DB086C /* AppDelegate.m in Sources */,
+				D9A6BF731B9D86CA00DB086C /* Effective_OC_01.m in Sources */,
+				D99AD6311BB27A3000A066AD /* EOCDataModel.m in Sources */,
+				D974BD1D1BAC0A3C00F4F020 /* EOCSquare.m in Sources */,
+				D974415D1B9EBC1100E2C005 /* Effective_OC_runtime.m in Sources */,
+				D9A6BF751B9D86CA00DB086C /* EOCEmployee.m in Sources */,
+				D9A6BF7A1B9D86CA00DB086C /* EOCSmithPerson.m in Sources */,
+				D9B9DBA21BB3C9A800FCD053 /* SomeCppClass.cpp in Sources */,
+				D95D32921B9EDEA400F9CC67 /* EOCExchangeImplementation.m in Sources */,
+				D9A6BF791B9D86CA00DB086C /* EOCPerson.m in Sources */,
+				D9A891C11BA6BF800063C9A7 /* NSObject+Swizzle.m in Sources */,
+				D9A891C41BA6C6390063C9A7 /* NSString+Swizzle.m in Sources */,
+				D9A6BF761B9D86CA00DB086C /* EOCEmployeeDesigner.m in Sources */,
+				D9E11F031BB14D2600D9FBC9 /* EOCErrorTest.m in Sources */,
+				D9B9DB9F1BB3C97C00FCD053 /* EOCClass.mm in Sources */,
+				D9B9DBAC1BB3EE5B00FCD053 /* EOCDatabaseConnectionA.m in Sources */,
+				D974BD1A1BAC0A3C00F4F020 /* EOC_3_API_Person.m in Sources */,
+				D9B9DB931BB3931A00FCD053 /* NSString+EOC_HTTP.m in Sources */,
 				D9A6BF3F1B9D85E200DB086C /* main.m in Sources */,
+				D974BD1C1BAC0A3C00F4F020 /* EOCRectangle.m in Sources */,
+				D9B9DBB21BB3F46900FCD053 /* EOCDatabaseConnection.m in Sources */,
+				D974415A1B9EB6E100E2C005 /* EOCAutoDictionary.m in Sources */,
+				D9B9DBA91BB3EE0300FCD053 /* EOCDatabaseManager.m in Sources */,
+				D99AD6371BB2AF4E00A066AD /* EOC_3_API_Person+Work.m in Sources */,
+				D9A6BF771B9D86CA00DB086C /* EOCEmployeeDeveloper.m in Sources */,
+				D99AD62E1BB24F1400A066AD /* EOCNetworkFetcher.m in Sources */,
+				D95D32951B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m in Sources */,
+				D9A6BF781B9D86CA00DB086C /* EOCEmployeeFinance.m in Sources */,
+				D9A6BF741B9D86CA00DB086C /* EOCBrain.m in Sources */,
+				D974BD1B1BAC0A3C00F4F020 /* EOCPointOfInterest.m in Sources */,
+				D99AD6341BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m in Sources */,
+				D99AD63A1BB2AF6000A066AD /* EOC_3_API_Person+Play.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +504,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -329,6 +551,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -347,8 +570,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = Effective_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanxingzheng.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +582,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = Effective_OC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanxingzheng.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -371,12 +598,14 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Effective_OCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanxingzheng.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Effective_OC.app/Effective_OC";
 			};
@@ -390,8 +619,10 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = Effective_OCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanxingzheng.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Effective_OC.app/Effective_OC";
 			};
@@ -416,6 +647,7 @@
 				D9A6BF5E1B9D85E200DB086C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9A6BF5F1B9D85E200DB086C /* Build configuration list for PBXNativeTarget "Effective_OCTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +656,7 @@
 				D9A6BF611B9D85E200DB086C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
