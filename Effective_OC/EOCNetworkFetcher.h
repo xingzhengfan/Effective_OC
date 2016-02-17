@@ -18,8 +18,14 @@
 - (BOOL)networkFetcher:(EOCNetworkFetcher *)fetcher shouldFollowRedirectToURL:(NSURL *)URL;
 @end
 
+typedef void (^EOCNetworkFetcherCompletionHandler)(NSData *data);
+
 @interface EOCNetworkFetcher : NSObject
 @property (nonatomic, weak) id <EOCNetworkFetcherDelegate> delegate;
 
 - (void)fetchNetworkDataWithURLString:(NSString *)URLString;
+
+//cache
+- (id)initWithURL:(NSURL *)url;
+- (void)startWithCompletionHandler:(EOCNetworkFetcherCompletionHandler)handler;
 @end

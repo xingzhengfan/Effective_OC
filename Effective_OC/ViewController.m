@@ -23,8 +23,17 @@
 #import "EOC_3_API_Person+Work.h"
 #import "EOCClass.h"
 #import "EOCDatabaseManager.h"
+//systemFramework
+#import "EOCEnumerate.h"
+#import "EOCBridge.h"
+#import "EOCCacheTestCase.h"
+#import "EOCTimerTestCase.h"
+//Design Pattern
+#import "InterfaceCodeCase.h"
+#import "InterfaceCodeSubCase.h"
 
-@interface ViewController ()
+
+@interface ViewController () <UIAlertViewDelegate>
 
 @end
 
@@ -37,7 +46,16 @@
     [self createView];
     
     //[self testapi];
-    [self test28];
+    //[self test28];
+    //[self testSystemFramework];
+    //[self eoctest];
+    
+    [self testDesignPattern];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 - (void)createView {
@@ -65,6 +83,13 @@
     [alert show];
 }
 
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    void(^block)(NSInteger)=objc_getAssociatedObject(alertView, @"block");
+    block(buttonIndex);
+}
+
+#pragma mark -
+
 - (void)eoctest {
     [[Effective_OC_01 new] testmemberkind];
     [[Effective_OC_01 new] performSelector:@selector(testmember) withObject:nil];
@@ -74,7 +99,6 @@
     [str performSelector:@selector(count)];
     [str performSelector:@selector(objectAtIndex:)];
     [str performSelector:@selector(makeObjectsPerformSelector:withObject:)];
-    
 }
 
 - (void)testapi {
@@ -138,9 +162,36 @@
     NSLog(@"result:%@",[oracleConnection performQuery:@"zheng"]);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -systemFramework
+
+- (void)testSystemFramework {
+    EOCEnumerate *enumerateTestCase=[EOCEnumerate new];
+    [enumerateTestCase testEnumerate];
+    
+    EOCBridge *bridgeTestCase=[EOCBridge new];
+    [bridgeTestCase testBridge];
+    [bridgeTestCase testExampleCase];
+    
+    EOCCacheTestCase *cacheTestCase = [[EOCCacheTestCase alloc] init];
+    [cacheTestCase downloadDataForURL:[NSURL URLWithString:@"http://segmentfault.com/a/1190000002933776"]];
+    
+    EOCTimerTestCase *timerTestCase = [EOCTimerTestCase new];
+    //[timerTestCase testTimer];
+    [timerTestCase performSelector:@selector(testRuntime)];
+}
+
+- (void)testRuntime {
+    NSLog(@"OK!");
+}
+
+- (void)testDesignPattern {
+    InterfaceCodeCase *testCase = [InterfaceCodeCase new];
+    [testCase flyMode];
+    [testCase quackMode];
+    
+    InterfaceCodeSubCase *testSubCase = [InterfaceCodeSubCase new];
+    [testSubCase flyMode];
+    [testSubCase quackMode];
 }
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "EOCNetworkFetcher.h"
-@interface EOCNetworkFetcher ()
+@interface EOCNetworkFetcher () <NSURLConnectionDataDelegate>
 {
     struct {
         unsigned int didReceiveData            : 1;
@@ -19,6 +19,11 @@
 @end
 
 @implementation EOCNetworkFetcher
+{
+    NSURL *_url;
+    void (^_completionHandler)(NSData *data);
+    NSMutableData *_downLoadData;
+}
 - (void)fetchNetworkDataWithURLString:(NSString *)URLString {
     for (int i=0; i<100; ++i) {
         if (_delegateFlags.didUpdateProgressTo) {
@@ -59,5 +64,39 @@
     _delegateFlags.didFailWithError=[_delegate respondsToSelector:@selector(networkFetcher:didFailWithError:)];
     _delegateFlags.didUpdateProgressTo=[_delegate respondsToSelector:@selector(networkFetcher:didUpdateProgressTo:)];
     _delegateFlags.shouldFollowRedirectToURL=[_delegate respondsToSelector:@selector(networkFetcher:shouldFollowRedirectToURL:)];
+}
+
+//cache
+- (id)initWithURL:(NSURL *)url {
+    if (self = [super init]) {
+        _url = url;
+        _downLoadData = [NSMutableData new];
+    }
+    return self;
+}
+
+- (void)startWithCompletionHandler:(EOCNetworkFetcherCompletionHandler)handler {
+    _completionHandler = handler;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        //
+    });
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:_url];
+    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self startImmediately:YES];
+}
+
+#pragma mark -connectionData
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+    NSLog(@"didReceiveResponse");
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
+    NSLog(@"didReceiveData");
+    
+    [_downLoadData appendData:data];
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+    NSLog(@"connectionDidFinishLoading");
+    _completionHandler(_downLoadData);
 }
 @end

@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74FCD1011BB5266100615073 /* ThirdMySQLConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1001BB5266100615073 /* ThirdMySQLConnector.m */; settings = {ASSET_TAGS = (); }; };
-		74FCD1041BB528BD00615073 /* EOCMySqlDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1031BB528BD00615073 /* EOCMySqlDatabaseConnection.m */; settings = {ASSET_TAGS = (); }; };
-		74FCD1071BB5315400615073 /* ThirdOracleConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1061BB5315400615073 /* ThirdOracleConnector.m */; settings = {ASSET_TAGS = (); }; };
-		74FCD10A1BB532DB00615073 /* EOCOracleDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1091BB532DB00615073 /* EOCOracleDatabaseConnection.m */; settings = {ASSET_TAGS = (); }; };
+		29DE8DEFCA3D9A5F14AF08B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A11874EB7FF0505432033E /* main.m */; };
+		74FCD1011BB5266100615073 /* ThirdMySQLConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1001BB5266100615073 /* ThirdMySQLConnector.m */; };
+		74FCD1041BB528BD00615073 /* EOCMySqlDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1031BB528BD00615073 /* EOCMySqlDatabaseConnection.m */; };
+		74FCD1071BB5315400615073 /* ThirdOracleConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1061BB5315400615073 /* ThirdOracleConnector.m */; };
+		74FCD10A1BB532DB00615073 /* EOCOracleDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FCD1091BB532DB00615073 /* EOCOracleDatabaseConnection.m */; };
+		8841A265EBD6B5466CDEA787 /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9568D4F91271F6672577411 /* MyTest.m */; };
 		D95D32921B9EDEA400F9CC67 /* EOCExchangeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D32911B9EDEA400F9CC67 /* EOCExchangeImplementation.m */; };
 		D95D32951B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D32941B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.m */; };
 		D974415A1B9EB6E100E2C005 /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D97441591B9EB6E100E2C005 /* EOCAutoDictionary.m */; };
@@ -19,11 +21,13 @@
 		D974BD1B1BAC0A3C00F4F020 /* EOCPointOfInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = D974BD151BAC0A3C00F4F020 /* EOCPointOfInterest.m */; };
 		D974BD1C1BAC0A3C00F4F020 /* EOCRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D974BD171BAC0A3C00F4F020 /* EOCRectangle.m */; };
 		D974BD1D1BAC0A3C00F4F020 /* EOCSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = D974BD191BAC0A3C00F4F020 /* EOCSquare.m */; };
-		D99AD62E1BB24F1400A066AD /* EOCNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD62D1BB24F1400A066AD /* EOCNetworkFetcher.m */; settings = {ASSET_TAGS = (); }; };
-		D99AD6311BB27A3000A066AD /* EOCDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6301BB27A3000A066AD /* EOCDataModel.m */; settings = {ASSET_TAGS = (); }; };
-		D99AD6341BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6331BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m */; settings = {ASSET_TAGS = (); }; };
-		D99AD6371BB2AF4E00A066AD /* EOC_3_API_Person+Work.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6361BB2AF4E00A066AD /* EOC_3_API_Person+Work.m */; settings = {ASSET_TAGS = (); }; };
-		D99AD63A1BB2AF6000A066AD /* EOC_3_API_Person+Play.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6391BB2AF6000A066AD /* EOC_3_API_Person+Play.m */; settings = {ASSET_TAGS = (); }; };
+		D998C0D61C311377007B7861 /* EOCFirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D998C0D51C311377007B7861 /* EOCFirstTests.m */; };
+		D998C0DE1C3113FE007B7861 /* Effective_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D998C0DD1C3113FE007B7861 /* Effective_OCUITests.m */; };
+		D99AD62E1BB24F1400A066AD /* EOCNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD62D1BB24F1400A066AD /* EOCNetworkFetcher.m */; };
+		D99AD6311BB27A3000A066AD /* EOCDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6301BB27A3000A066AD /* EOCDataModel.m */; };
+		D99AD6341BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6331BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m */; };
+		D99AD6371BB2AF4E00A066AD /* EOC_3_API_Person+Work.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6361BB2AF4E00A066AD /* EOC_3_API_Person+Work.m */; };
+		D99AD63A1BB2AF6000A066AD /* EOC_3_API_Person+Play.m in Sources */ = {isa = PBXBuildFile; fileRef = D99AD6391BB2AF6000A066AD /* EOC_3_API_Person+Play.m */; };
 		D9A6BF3F1B9D85E200DB086C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF3E1B9D85E200DB086C /* main.m */; };
 		D9A6BF421B9D85E200DB086C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF411B9D85E200DB086C /* AppDelegate.m */; };
 		D9A6BF451B9D85E200DB086C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF441B9D85E200DB086C /* ViewController.m */; };
@@ -41,15 +45,37 @@
 		D9A6BF7A1B9D86CA00DB086C /* EOCSmithPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A6BF721B9D86CA00DB086C /* EOCSmithPerson.m */; };
 		D9A891C11BA6BF800063C9A7 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A891C01BA6BF800063C9A7 /* NSObject+Swizzle.m */; };
 		D9A891C41BA6C6390063C9A7 /* NSString+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A891C31BA6C6390063C9A7 /* NSString+Swizzle.m */; };
-		D9B9DB931BB3931A00FCD053 /* NSString+EOC_HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DB921BB3931A00FCD053 /* NSString+EOC_HTTP.m */; settings = {ASSET_TAGS = (); }; };
-		D9B9DB9F1BB3C97C00FCD053 /* EOCClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DB9E1BB3C97C00FCD053 /* EOCClass.mm */; settings = {ASSET_TAGS = (); }; };
-		D9B9DBA21BB3C9A800FCD053 /* SomeCppClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBA01BB3C9A800FCD053 /* SomeCppClass.cpp */; settings = {ASSET_TAGS = (); }; };
-		D9B9DBA91BB3EE0300FCD053 /* EOCDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */; settings = {ASSET_TAGS = (); }; };
-		D9E11F031BB14D2600D9FBC9 /* EOCErrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */; settings = {ASSET_TAGS = (); }; };
+		D9AD87461C42831300406F08 /* InterfaceCodeCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD87451C42831300406F08 /* InterfaceCodeCase.m */; };
+		D9AD874A1C4284A600406F08 /* InterfaceCodeSubCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD87491C4284A600406F08 /* InterfaceCodeSubCase.m */; };
+		D9B9DB931BB3931A00FCD053 /* NSString+EOC_HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DB921BB3931A00FCD053 /* NSString+EOC_HTTP.m */; };
+		D9B9DB9F1BB3C97C00FCD053 /* EOCClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DB9E1BB3C97C00FCD053 /* EOCClass.mm */; };
+		D9B9DBA21BB3C9A800FCD053 /* SomeCppClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBA01BB3C9A800FCD053 /* SomeCppClass.cpp */; };
+		D9B9DBA91BB3EE0300FCD053 /* EOCDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */; };
+		D9E11F031BB14D2600D9FBC9 /* EOCErrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */; };
+		D9E7662B1C35049D00FF35A8 /* EOCTimerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E7662A1C35049D00FF35A8 /* EOCTimerTestCase.m */; };
+		D9E766311C35198100FF35A8 /* NSTimer+EOCBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E766301C35198100FF35A8 /* NSTimer+EOCBlockSupport.m */; };
+		D9ED8CF11C33B11300CAE077 /* EOCEnumerate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9ED8CF01C33B11300CAE077 /* EOCEnumerate.m */; };
+		D9ED8CF41C33BA6D00CAE077 /* EOCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D9ED8CF31C33BA6D00CAE077 /* EOCBridge.m */; };
+		D9ED8CF81C33CA6900CAE077 /* EOCCacheTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D9ED8CF71C33CA6900CAE077 /* EOCCacheTestCase.m */; };
+		F987D13AB2038B7B727F0FF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAED2DDC2C737C70FEF8F124 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D998C0E01C3113FE007B7861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9A6BF311B9D85E200DB086C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9A6BF381B9D85E200DB086C;
+			remoteInfo = Effective_OC;
+		};
 		D9A6BF531B9D85E200DB086C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9A6BF311B9D85E200DB086C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9A6BF381B9D85E200DB086C;
+			remoteInfo = Effective_OC;
+		};
+		DA9B8567E1520C65ACC627D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D9A6BF311B9D85E200DB086C /* Project object */;
 			proxyType = 1;
@@ -59,6 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37A11874EB7FF0505432033E /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Tests/main.m; sourceTree = "<group>"; };
+		529188B8E73F588D49C6E93C /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FCD0FF1BB5266100615073 /* ThirdMySQLConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdMySQLConnector.h; sourceTree = "<group>"; };
 		74FCD1001BB5266100615073 /* ThirdMySQLConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdMySQLConnector.m; sourceTree = "<group>"; };
 		74FCD1021BB528BD00615073 /* EOCMySqlDatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCMySqlDatabaseConnection.h; sourceTree = "<group>"; };
@@ -67,6 +95,7 @@
 		74FCD1061BB5315400615073 /* ThirdOracleConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdOracleConnector.m; sourceTree = "<group>"; };
 		74FCD1081BB532DB00615073 /* EOCOracleDatabaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCOracleDatabaseConnection.h; sourceTree = "<group>"; };
 		74FCD1091BB532DB00615073 /* EOCOracleDatabaseConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCOracleDatabaseConnection.m; sourceTree = "<group>"; };
+		A9568D4F91271F6672577411 /* MyTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyTest.m; path = Tests/MyTest.m; sourceTree = "<group>"; };
 		D95D32901B9EDEA400F9CC67 /* EOCExchangeImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCExchangeImplementation.h; sourceTree = "<group>"; };
 		D95D32911B9EDEA400F9CC67 /* EOCExchangeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCExchangeImplementation.m; sourceTree = "<group>"; };
 		D95D32931B9EE5BE00F9CC67 /* NSString+EOCMyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCMyAdditions.h"; sourceTree = "<group>"; };
@@ -83,6 +112,10 @@
 		D974BD171BAC0A3C00F4F020 /* EOCRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCRectangle.m; sourceTree = "<group>"; };
 		D974BD181BAC0A3C00F4F020 /* EOCSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCSquare.h; sourceTree = "<group>"; };
 		D974BD191BAC0A3C00F4F020 /* EOCSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCSquare.m; sourceTree = "<group>"; };
+		D998C0D51C311377007B7861 /* EOCFirstTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCFirstTests.m; sourceTree = "<group>"; };
+		D998C0DB1C3113FE007B7861 /* Effective_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Effective_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D998C0DD1C3113FE007B7861 /* Effective_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Effective_OCUITests.m; sourceTree = "<group>"; };
+		D998C0DF1C3113FE007B7861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99AD62C1BB24F1400A066AD /* EOCNetworkFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCNetworkFetcher.h; sourceTree = "<group>"; };
 		D99AD62D1BB24F1400A066AD /* EOCNetworkFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCNetworkFetcher.m; sourceTree = "<group>"; };
 		D99AD62F1BB27A3000A066AD /* EOCDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCDataModel.h; sourceTree = "<group>"; };
@@ -126,6 +159,11 @@
 		D9A891C01BA6BF800063C9A7 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
 		D9A891C21BA6C6390063C9A7 /* NSString+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Swizzle.h"; sourceTree = "<group>"; };
 		D9A891C31BA6C6390063C9A7 /* NSString+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Swizzle.m"; sourceTree = "<group>"; };
+		D9AD87441C42831300406F08 /* InterfaceCodeCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceCodeCase.h; sourceTree = "<group>"; };
+		D9AD87451C42831300406F08 /* InterfaceCodeCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceCodeCase.m; sourceTree = "<group>"; };
+		D9AD87471C4283B500406F08 /* InterfaceCodeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceCodeProtocol.h; sourceTree = "<group>"; };
+		D9AD87481C4284A600406F08 /* InterfaceCodeSubCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceCodeSubCase.h; sourceTree = "<group>"; };
+		D9AD87491C4284A600406F08 /* InterfaceCodeSubCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceCodeSubCase.m; sourceTree = "<group>"; };
 		D9B9DB911BB3931A00FCD053 /* NSString+EOC_HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EOC_HTTP.h"; sourceTree = "<group>"; };
 		D9B9DB921BB3931A00FCD053 /* NSString+EOC_HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOC_HTTP.m"; sourceTree = "<group>"; };
 		D9B9DB9D1BB3C97C00FCD053 /* EOCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCClass.h; sourceTree = "<group>"; };
@@ -137,9 +175,35 @@
 		D9B9DBA81BB3EE0300FCD053 /* EOCDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCDatabaseManager.m; sourceTree = "<group>"; };
 		D9E11F011BB14D2600D9FBC9 /* EOCErrorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCErrorTest.h; sourceTree = "<group>"; };
 		D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCErrorTest.m; sourceTree = "<group>"; };
+		D9E766291C35049D00FF35A8 /* EOCTimerTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCTimerTestCase.h; sourceTree = "<group>"; };
+		D9E7662A1C35049D00FF35A8 /* EOCTimerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCTimerTestCase.m; sourceTree = "<group>"; };
+		D9E7662F1C35198100FF35A8 /* NSTimer+EOCBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+EOCBlockSupport.h"; sourceTree = "<group>"; };
+		D9E766301C35198100FF35A8 /* NSTimer+EOCBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+EOCBlockSupport.m"; sourceTree = "<group>"; };
+		D9ED8CEF1C33B11300CAE077 /* EOCEnumerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEnumerate.h; sourceTree = "<group>"; };
+		D9ED8CF01C33B11300CAE077 /* EOCEnumerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEnumerate.m; sourceTree = "<group>"; };
+		D9ED8CF21C33BA6D00CAE077 /* EOCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCBridge.h; sourceTree = "<group>"; };
+		D9ED8CF31C33BA6D00CAE077 /* EOCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCBridge.m; sourceTree = "<group>"; };
+		D9ED8CF61C33CA6900CAE077 /* EOCCacheTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCCacheTestCase.h; sourceTree = "<group>"; };
+		D9ED8CF71C33CA6900CAE077 /* EOCCacheTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCCacheTestCase.m; sourceTree = "<group>"; };
+		EAED2DDC2C737C70FEF8F124 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0D3D531AD654F892038238FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F987D13AB2038B7B727F0FF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D998C0D81C3113FE007B7861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9A6BF361B9D85E200DB086C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +221,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383BB9CE085A02510AAAFF7F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAED2DDC2C737C70FEF8F124 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		74FCD10B1BB5359600615073 /* ThirdLibraryDatabase */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +255,15 @@
 				D9E11F021BB14D2600D9FBC9 /* EOCErrorTest.m */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		D998C0DC1C3113FE007B7861 /* Effective_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D998C0DD1C3113FE007B7861 /* Effective_OCUITests.m */,
+				D998C0DF1C3113FE007B7861 /* Info.plist */,
+			);
+			path = Effective_OCUITests;
 			sourceTree = "<group>";
 		};
 		D99AD62B1BB24EF000A066AD /* protocol&category */ = {
@@ -221,7 +302,10 @@
 			children = (
 				D9A6BF3B1B9D85E200DB086C /* Effective_OC */,
 				D9A6BF551B9D85E200DB086C /* Effective_OCTests */,
+				D998C0DC1C3113FE007B7861 /* Effective_OCUITests */,
 				D9A6BF3A1B9D85E200DB086C /* Products */,
+				F17114C5861C41BF0D03E3AB /* Frameworks */,
+				FE79787C8438DA51708493DB /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,6 +314,8 @@
 			children = (
 				D9A6BF391B9D85E200DB086C /* Effective_OC.app */,
 				D9A6BF521B9D85E200DB086C /* Effective_OCTests.xctest */,
+				D998C0DB1C3113FE007B7861 /* Effective_OCUITests.xctest */,
+				529188B8E73F588D49C6E93C /* Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,6 +349,7 @@
 			isa = PBXGroup;
 			children = (
 				D9A6BF581B9D85E200DB086C /* Effective_OCTests.m */,
+				D998C0D51C311377007B7861 /* EOCFirstTests.m */,
 				D9A6BF561B9D85E200DB086C /* Supporting Files */,
 			);
 			path = Effective_OCTests;
@@ -279,6 +366,8 @@
 		D9A6BF621B9D86BD00DB086C /* test */ = {
 			isa = PBXGroup;
 			children = (
+				D9AD87431C4282C300406F08 /* DesignPattern */,
+				D9ED8CF51C33CA4C00CAE077 /* systemFramework */,
 				D99AD62B1BB24EF000A066AD /* protocol&category */,
 				D974BD111BAC0A2300F4F020 /* API */,
 				D9A891BE1BA6BCA70063C9A7 /* runtime */,
@@ -321,9 +410,91 @@
 			name = runtime;
 			sourceTree = "<group>";
 		};
+		D9AD87431C4282C300406F08 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				D9AD87441C42831300406F08 /* InterfaceCodeCase.h */,
+				D9AD87451C42831300406F08 /* InterfaceCodeCase.m */,
+				D9AD87481C4284A600406F08 /* InterfaceCodeSubCase.h */,
+				D9AD87491C4284A600406F08 /* InterfaceCodeSubCase.m */,
+				D9AD87471C4283B500406F08 /* InterfaceCodeProtocol.h */,
+			);
+			name = DesignPattern;
+			sourceTree = "<group>";
+		};
+		D9ED8CF51C33CA4C00CAE077 /* systemFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D9ED8CEF1C33B11300CAE077 /* EOCEnumerate.h */,
+				D9ED8CF01C33B11300CAE077 /* EOCEnumerate.m */,
+				D9ED8CF21C33BA6D00CAE077 /* EOCBridge.h */,
+				D9ED8CF31C33BA6D00CAE077 /* EOCBridge.m */,
+				D9ED8CF61C33CA6900CAE077 /* EOCCacheTestCase.h */,
+				D9ED8CF71C33CA6900CAE077 /* EOCCacheTestCase.m */,
+				D9E766291C35049D00FF35A8 /* EOCTimerTestCase.h */,
+				D9E7662A1C35049D00FF35A8 /* EOCTimerTestCase.m */,
+				D9E7662F1C35198100FF35A8 /* NSTimer+EOCBlockSupport.h */,
+				D9E766301C35198100FF35A8 /* NSTimer+EOCBlockSupport.m */,
+			);
+			name = systemFramework;
+			sourceTree = "<group>";
+		};
+		F17114C5861C41BF0D03E3AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383BB9CE085A02510AAAFF7F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE79787C8438DA51708493DB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				37A11874EB7FF0505432033E /* main.m */,
+				A9568D4F91271F6672577411 /* MyTest.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		317D424403C2893955AA1A22 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2C56001E00DDBEF3797B22 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				857E160DCB7EB80836BDBD0B /* Sources */,
+				0D3D531AD654F892038238FC /* Frameworks */,
+				E8686A80B98F7DEF9657FC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D2103B2A13CC79DBD37000 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 529188B8E73F588D49C6E93C /* Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D998C0DA1C3113FE007B7861 /* Effective_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D998C0E21C3113FE007B7861 /* Build configuration list for PBXNativeTarget "Effective_OCUITests" */;
+			buildPhases = (
+				D998C0D71C3113FE007B7861 /* Sources */,
+				D998C0D81C3113FE007B7861 /* Frameworks */,
+				D998C0D91C3113FE007B7861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D998C0E11C3113FE007B7861 /* PBXTargetDependency */,
+			);
+			name = Effective_OCUITests;
+			productName = Effective_OCUITests;
+			productReference = D998C0DB1C3113FE007B7861 /* Effective_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D9A6BF381B9D85E200DB086C /* Effective_OC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9A6BF5C1B9D85E200DB086C /* Build configuration list for PBXNativeTarget "Effective_OC" */;
@@ -368,6 +539,10 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = fanxingzheng;
 				TargetAttributes = {
+					D998C0DA1C3113FE007B7861 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D9A6BF381B9D85E200DB086C;
+					};
 					D9A6BF381B9D85E200DB086C = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -392,11 +567,20 @@
 			targets = (
 				D9A6BF381B9D85E200DB086C /* Effective_OC */,
 				D9A6BF511B9D85E200DB086C /* Effective_OCTests */,
+				D998C0DA1C3113FE007B7861 /* Effective_OCUITests */,
+				317D424403C2893955AA1A22 /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D998C0D91C3113FE007B7861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9A6BF371B9D85E200DB086C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,9 +598,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8686A80B98F7DEF9657FC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		857E160DCB7EB80836BDBD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DE8DEFCA3D9A5F14AF08B0 /* main.m in Sources */,
+				8841A265EBD6B5466CDEA787 /* MyTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D998C0D71C3113FE007B7861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D998C0DE1C3113FE007B7861 /* Effective_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9A6BF351B9D85E200DB086C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +637,7 @@
 				D974415D1B9EBC1100E2C005 /* Effective_OC_runtime.m in Sources */,
 				D9A6BF751B9D86CA00DB086C /* EOCEmployee.m in Sources */,
 				D9A6BF7A1B9D86CA00DB086C /* EOCSmithPerson.m in Sources */,
+				D9ED8CF81C33CA6900CAE077 /* EOCCacheTestCase.m in Sources */,
 				D9B9DBA21BB3C9A800FCD053 /* SomeCppClass.cpp in Sources */,
 				D95D32921B9EDEA400F9CC67 /* EOCExchangeImplementation.m in Sources */,
 				D9A6BF791B9D86CA00DB086C /* EOCPerson.m in Sources */,
@@ -439,12 +648,17 @@
 				D9B9DB9F1BB3C97C00FCD053 /* EOCClass.mm in Sources */,
 				74FCD1041BB528BD00615073 /* EOCMySqlDatabaseConnection.m in Sources */,
 				D974BD1A1BAC0A3C00F4F020 /* EOC_3_API_Person.m in Sources */,
+				D9AD874A1C4284A600406F08 /* InterfaceCodeSubCase.m in Sources */,
+				D9ED8CF11C33B11300CAE077 /* EOCEnumerate.m in Sources */,
 				D9B9DB931BB3931A00FCD053 /* NSString+EOC_HTTP.m in Sources */,
 				D9A6BF3F1B9D85E200DB086C /* main.m in Sources */,
+				D9AD87461C42831300406F08 /* InterfaceCodeCase.m in Sources */,
 				D974BD1C1BAC0A3C00F4F020 /* EOCRectangle.m in Sources */,
 				D974415A1B9EB6E100E2C005 /* EOCAutoDictionary.m in Sources */,
+				D9E766311C35198100FF35A8 /* NSTimer+EOCBlockSupport.m in Sources */,
 				D9B9DBA91BB3EE0300FCD053 /* EOCDatabaseManager.m in Sources */,
 				74FCD1011BB5266100615073 /* ThirdMySQLConnector.m in Sources */,
+				D9ED8CF41C33BA6D00CAE077 /* EOCBridge.m in Sources */,
 				D99AD6371BB2AF4E00A066AD /* EOC_3_API_Person+Work.m in Sources */,
 				D9A6BF771B9D86CA00DB086C /* EOCEmployeeDeveloper.m in Sources */,
 				D99AD62E1BB24F1400A066AD /* EOCNetworkFetcher.m in Sources */,
@@ -455,6 +669,7 @@
 				D9A6BF741B9D86CA00DB086C /* EOCBrain.m in Sources */,
 				D974BD1B1BAC0A3C00F4F020 /* EOCPointOfInterest.m in Sources */,
 				D99AD6341BB2AF4200A066AD /* EOC_3_API_Person+Friendship.m in Sources */,
+				D9E7662B1C35049D00FF35A8 /* EOCTimerTestCase.m in Sources */,
 				D99AD63A1BB2AF6000A066AD /* EOC_3_API_Person+Play.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +678,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D998C0D61C311377007B7861 /* EOCFirstTests.m in Sources */,
 				D9A6BF591B9D85E200DB086C /* Effective_OCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +686,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		58D2103B2A13CC79DBD37000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Effective_OC;
+			target = D9A6BF381B9D85E200DB086C /* Effective_OC */;
+			targetProxy = DA9B8567E1520C65ACC627D8 /* PBXContainerItemProxy */;
+		};
+		D998C0E11C3113FE007B7861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9A6BF381B9D85E200DB086C /* Effective_OC */;
+			targetProxy = D998C0E01C3113FE007B7861 /* PBXContainerItemProxy */;
+		};
 		D9A6BF541B9D85E200DB086C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D9A6BF381B9D85E200DB086C /* Effective_OC */;
@@ -497,6 +724,63 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5C011FF3CC30646F4A9BDABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B0EAB3BD5498E758CADA0AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D998C0E31C3113FE007B7861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = Effective_OCUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanxingzheng.Effective-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Effective_OC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D998C0E41C3113FE007B7861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Effective_OCUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanxingzheng.Effective-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Effective_OC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 		D9A6BF5A1B9D85E200DB086C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -517,7 +801,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -563,7 +847,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -645,6 +929,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D998C0E21C3113FE007B7861 /* Build configuration list for PBXNativeTarget "Effective_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D998C0E31C3113FE007B7861 /* Debug */,
+				D998C0E41C3113FE007B7861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D9A6BF341B9D85E200DB086C /* Build configuration list for PBXProject "Effective_OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -668,6 +961,15 @@
 			buildConfigurations = (
 				D9A6BF601B9D85E200DB086C /* Debug */,
 				D9A6BF611B9D85E200DB086C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2C56001E00DDBEF3797B22 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C011FF3CC30646F4A9BDABE /* Release */,
+				B0EAB3BD5498E758CADA0AAE /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

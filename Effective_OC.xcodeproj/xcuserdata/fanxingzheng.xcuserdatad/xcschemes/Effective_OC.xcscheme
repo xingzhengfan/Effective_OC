@@ -52,6 +52,16 @@
                ReferencedContainer = "container:Effective_OC.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D998C0DA1C3113FE007B7861"
+               BuildableName = "Effective_OCUITests.xctest"
+               BlueprintName = "Effective_OCUITests"
+               ReferencedContainer = "container:Effective_OC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
